@@ -55,7 +55,7 @@ var app = {
 				$('body').html(new EmployeeView(employee).render().el);
 			});
 		}
-	}
+	},
 
     initialize: function() {
 		var self = this;		
